@@ -3,6 +3,43 @@
 ## 1. Simple linear Regression
 
 
+This project demonstrates the implementation of **Simple Linear Regression** to predict salaries based on years of experience. The dataset used is `Salary_Data.csv`, which contains two columns: `YearsExperience` and `Salary`.
+
+---
+
+### Project Overview
+**Simple Linear Regression** is used to predict a dependent variable (`Salary`) based on an independent variable (`YearsExperience`). This project includes:
+- Training a model using a linear regression algorithm.
+- Evaluating model performance.
+- Deploying the model as an API using **FastAPI** and **ngrok** for public accessibility.
+
+---
+
+### Dataset
+The dataset `Salary_Data.csv` contains 30 entries with the following columns:
+- **YearsExperience**: Number of years of experience.
+- **Salary**: Salary of the individual.
+
+Sample data:
+| YearsExperience | Salary     |
+|-----------------|------------|
+| 1.1            | 39343.0    |
+| 1.3            | 46205.0    |
+| 1.5            | 37731.0    |
+| 2.0            | 43525.0    |
+| 2.2            | 39891.0    |
+
+---
+
+### Dependencies
+Install the required libraries using:
+```bash
+pip install numpy pandas matplotlib scikit-learn fastapi uvicorn joblib
+
+```
+
+
+
 
 ## 2. Multiple Linear Regression
 
